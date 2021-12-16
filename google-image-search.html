@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Images</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="whitespace"></div>
+
+        <div>
+          <a href="./index.html">Google Search</a>
+          <a href="./google-advanced-search.html">Advanced Search</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <img
+        class="google-logo"
+        src="./images/googlelogo_image_search.png"
+        alt="google-logo"
+      />
+      <br />
+
+      <form action="https://images.google.com/images" method="get">
+        <div class="searchbox">
+          <img src="./images/google-search.png" alt="" class="search-icon" />
+          <input class="search-input" type="text" type="hidden" name="q" />
+          <button type="">
+            <img
+              src="./images/photo_camera_grey600_24dp.png"
+              class="camera"
+              alt=""
+            />
+          </button>
+          <br />
+          <button type="">
+            <img src="./images/google-microphone.png" class="mic" alt="" />
+            <br />
+            <button type="submit">
+              <img src="./images/google-search.png" alt="" />
+            </button>
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <div class="top-footer">
+        <p>Nigeria</p>
+      </div>
+
+      <div class="bottom-footer">
+        <div class="left">
+          <a href="#">About</a>
+          <a href="#">Advertising</a>
+          <a href="#">Business</a>
+          <a href="#">How Search works</a>
+        </div>
+
+        <a href="#"
+          ><img
+            src="./images/download.png"
+            alt="carbon-neutral"
+            class="carbon-image"
+          />Carbon neutral since 2007</a
+        >
+
+        <div class="right">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Settings</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
